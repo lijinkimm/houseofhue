@@ -483,6 +483,10 @@ a:hover {
   background-size: cover;
 }
 
+.location-photo-scene {
+  background-position: center 70%;
+}
+
 /* ---------- SECTION F2 — PRICING / TERMS ---------- */
 
 .section-pricing {
