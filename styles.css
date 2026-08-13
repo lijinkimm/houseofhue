@@ -484,7 +484,12 @@ a:hover {
 }
 
 .location-photo-scene {
-  background-position: center 70%;
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  aspect-ratio: 1619 / 971;
+  background-size: cover;
+  background-position: center;
 }
 
 /* ---------- SECTION F2 — PRICING / TERMS ---------- */
@@ -930,7 +935,8 @@ a:hover {
     height: 32vh;
     height: 32svh;
   }
-  .location-photo-map {
+  .location-photo-map,
+  .location-photo-scene {
     height: auto;
   }
   .facility-gallery img {
