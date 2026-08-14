@@ -454,11 +454,12 @@ a:hover {
 
 .location-photos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.5fr 1.667fr;
   gap: 6px;
   width: calc(100% + 112px);
   margin-left: -56px;
   margin-right: -56px;
+  align-items: stretch;
 }
 
 .location-photos > div {
@@ -466,9 +467,6 @@ a:hover {
 }
 
 .location-photo {
-  height: 46vh;
-  height: 46svh;
-  min-height: 300px;
   border-radius: 0;
   background-position: center;
   background-size: cover;
@@ -478,7 +476,6 @@ a:hover {
 .location-photo-map {
   width: 100%;
   height: auto;
-  min-height: 0;
   aspect-ratio: 3 / 2;
   background-size: cover;
 }
@@ -486,7 +483,6 @@ a:hover {
 .location-photo-scene {
   width: 100%;
   height: auto;
-  min-height: 0;
   aspect-ratio: 1619 / 971;
   background-size: cover;
   background-position: center;
@@ -930,14 +926,6 @@ a:hover {
     width: calc(100% + 32px);
     margin-left: -16px;
     margin-right: -16px;
-  }
-  .location-photo {
-    height: 32vh;
-    height: 32svh;
-  }
-  .location-photo-map,
-  .location-photo-scene {
-    height: auto;
   }
   .facility-gallery img {
     flex-basis: 82vw;
